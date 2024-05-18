@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(to bottom, #141e30, #243b55);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    margin: 0;
+}
+
+.Nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Nav a, .Nav h5 {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.Nav a:hover, .Nav h5:hover {
+    color: #f39c12;
+    cursor: pointer;
+}
+
+.New {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.New div {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.New img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.New h5 {
+    margin: 10px 0;
+}
+
+.New a {
+    color: #f39c12;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+.New a:hover {
+    color: #d35400;
+}
+
+.links {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #f39c12;
+}
